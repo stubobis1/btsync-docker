@@ -11,7 +11,7 @@ RUN apt-get upgrade -y
 RUN apt-get install curl -y
 RUN apt-get install nodejs -y
 
-RUN curl -o /usr/bin/btsync.tar.gz https://download-cdn.getsyncapp.com/stable/linux-x64/BitTorrent-Sync_x64.tar.gz
+RUN curl -o /usr/bin/btsync.tar.gz https://download-cdn.getsync.com/stable/linux-arm/BitTorrent-Sync_arm.tar.gz
 RUN cd /usr/bin; tar xvzf btsync.tar.gz; rm btsync.tar.gz;
 
 ADD btsync /btsync
