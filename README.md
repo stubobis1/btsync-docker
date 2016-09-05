@@ -1,3 +1,6 @@
+THIS IS OUTDATED
+================
+
 Dockerized BTSync
 =========
 
